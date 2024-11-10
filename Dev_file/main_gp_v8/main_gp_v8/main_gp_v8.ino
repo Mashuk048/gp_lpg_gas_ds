@@ -29,12 +29,12 @@ RCSwitch mySwitch = RCSwitch();
 
 //MQTT  credentials
 
-const char *mqtt_server = "139.59.80.128";
+const char *mqtt_server = "********";// give broker address i.e. broker.hivemq.com
 const char *device_data   = "dsiot/gphouse/dbox/dev_data";
 const char *device_config   = "dsiot/gphouse/dbox/dev_config";
 const char *device_response = "dsiot/gphouse/dbox/dev_response";
-const char *mqtt_user = "dsgp";
-const char *mqtt_pass = "Gp@2o2o";
+const char *mqtt_user = "";
+const char *mqtt_pass = "";
 const int mqttPort = 1883;
 int mqttTryCounter=0;
 
